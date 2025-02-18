@@ -11,7 +11,7 @@ permissions:
   id-token: write
 
 env:
-  INSTANCE: 'Writerside/in'
+  INSTANCE: 'Writerside/cd'
   DOCKER_VERSION: '243.21565'
   PDF: 'PDF.xml'
 
