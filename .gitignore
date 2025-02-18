@@ -1,0 +1,9 @@
+bin/
+obj/
+bin-int/
+build/
+.idea/
+.vs/
+.vs-code/
+*.user
+*.env
