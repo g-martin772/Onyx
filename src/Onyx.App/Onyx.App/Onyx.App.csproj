@@ -12,7 +12,7 @@
     </TargetFrameworks>
    
 
-    <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers>
+    <RuntimeIdentifiers Condition="$([MSBuild]::IsOSPlatform('osx'))">maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers>
 
     <OutputType>Exe</OutputType>
     <RootNamespace>Onyx.App</RootNamespace>
